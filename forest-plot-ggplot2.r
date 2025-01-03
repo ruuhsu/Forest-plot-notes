@@ -1,11 +1,5 @@
 # Load Required Libraries
 required_packages <- c("readxl", "tidyverse", "gt", "patchwork", "ggplot2")
-lapply(required_packages, function(pkg) {
-    if (!requireNamespace(pkg, quietly = TRUE)) {
-        install.packages(pkg)
-    }
-    library(pkg, character.only = TRUE)
-})
 
 # Example Dataset (Replace with Actual Data)
 plot.data <- tibble(
