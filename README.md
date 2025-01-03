@@ -9,15 +9,14 @@ This repository provides an example of a forest plot inspired by Katherine Hoffm
 ### Features
 - **Visual Representation:** Clearly shows the IRR and CI for each risk group, allowing easy comparison.
 - **Customizations:** Demonstrates how to fine-tune plot aesthetics, such as axis labels, annotations, and error bar styles.
-- **Reproducible Code:** Includes script for plot generating using R.
+- **Reproducible Code:** Includes script for plot generation using R.
 
-### Repository Contents
-- **`scripts/`**: R scripts for creating the forest plot, including data preparation and visualization.
-- **`data/`**: Example dataset used for plotting.
-- **`outputs/`**: Example plot outputs for reference.
+### Prerequisites
+Ensure you have R installed. Required R packages:
+- `ggplot2`
+- `dplyr`
+- `readr`
 
-### How to Use
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd forest-plot
+Install these packages using:
+```R
+install.packages(c("ggplot2", "dplyr", "readr"))
